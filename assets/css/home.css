@@ -1,0 +1,36 @@
+#home{
+  /*Insertar aqui imagen de fondo*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 10em;
+  background-color : aliceblue;
+  background-image: url("../imagenes/WAA.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  filter: grayscale(80%);
+  filter: contrast(50%);
+}
+  article.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  article.titulo h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: ;
+    color: black;
+  }
+  div.slogan p{
+    text-align:center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
